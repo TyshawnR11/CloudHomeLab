@@ -1,0 +1,31 @@
+﻿# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars.local
+
+# Ansible
+*.retry
+
+# SSH Keys
+*.pem
+*.key
+id_rsa*
+
+# Secrets
+secrets/
+*.secret
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
